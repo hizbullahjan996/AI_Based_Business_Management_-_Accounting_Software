@@ -1,0 +1,4 @@
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-11-23T17:27:16.550Z"}
+{"level":"info","message":"Environment: development","timestamp":"2025-11-23T17:27:16.557Z"}
+{"level":"info","message":"Frontend URL: http://localhost:3000","timestamp":"2025-11-23T17:27:16.558Z"}
+{"ip":"::1","level":"info","message":"GET /","timestamp":"2025-11-23T17:28:58.756Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Business Management Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI Business Management Dashboard</h1>
+            <p>Smart insights powered by artificial intelligence for your business</p>
+        </div>
+
+        <!-- Business Health Overview -->
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-value">95</div>
+                <div class="stat-label">Health Score</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">25.3%</div>
+                <div class="stat-label">Profit Margin</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">84.3%</div>
+                <div class="stat-label">Customer Retention</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">Rs 119K</div>
+                <div class="stat-label">Monthly Sales</div>
+            </div>
+        </div>
+
+        <!-- Main Dashboard -->
+        <div class="dashboard">
+            <!-- Demand Prediction Card -->
+            <div class="card">
+                <h3>📈 Demand Prediction <span class="ai-badge">AI POWERED</span></h3>
+
+                <div class="metric">
+                    <span class="metric-label">Item A - Expected Demand (90 days)</span>
+                    <span class="metric-value">1,085 units</span>
+                </div>
+                <div class="confidence-bar">
+                    <div class="confidence-fill" style="width: 72%;"></div>
+                </div>
+                <div style="font-size: 0.8rem; color: #666; margin-bottom: 10px;">Confidence: 72%</div>
+
+                <div class="metric">
+                    <span class="metric-label">Investment Needed</span>
+                    <span class="metric-value">Rs 108,500</span>
+                </div>
+
+                <div class="metric">
+                    <span class="metric-label">Expected Profit</span>
+                    <span class="metric-value" style="color: #4caf50;">Rs 32,550</span>
+                </div>
+
+                <div class="metric">
+                    <span class="metric-label">ROI</span>
+                    <span class="metric-value" style="color: #4caf50;">30.0%</span>
+                </div>
+
+                <div style="margin-top: 15px; padding: 10px; background: #f0f8ff; border-radius: 6px; font-size: 0.9rem;">
+                    💡 <strong>AI Recommendation:</strong> Focus on high-confidence items for maximum ROI
+                </div>
+            </div>
+
+            <!-- Payment Recommendations Card -->
+            <div class="card">
+                <h3>💰 Payment Recommendations <span class="ai-badge">AI POWERED</span></h3>
+
+                <div class="insight-item">
+                    <strong>Customer: ABC Trading</strong><br>
+                    <span class="metric-label">Current Balance: Rs 50,462</span><br>
+                    <span class="metric-label">Recommended Payment: Rs 20,185</span>
+                    <div style="margin-top: 5px;">
+                        <span class="risk-badge risk-high">HIGH RISK</span>
+                        <span style="margin-left: 10px; font-size: 0.8rem;">Payment History: 60% on time</span>
+                    </div>
+                </div>
+
+                <div class="insight-item medium-priority">
+                    <strong>Customer: XYZ Corp</strong><br>
+                    <span class="metric-label">Current Balance: Rs 63,994</span><br>
+                    <span class="metric-label">Recommended Payment: Rs 38,397</span>
+                    <div style="margin-top: 5px;">
+                        <span class="risk-badge risk-medium">MEDIUM RISK</span>
+                        <span style="margin-left: 10px; font-size: 0.8rem;">Payment History: 80% on time</span>
+                    </div>
+                </div>
+
+                <div style="margin-top: 15px; padding: 10px; background: #fff3e0; border-radius: 6px; font-size: 0.9rem;">
+                    ⚠️ <strong>Risk Alert:</strong> 45% of customers are high risk. Consider stricter credit terms.
+                </div>
+            </div>
+
+            <!-- Business Insights Card -->
+            <div class="card">
+                <h3>🔍 Business Insights <span class="ai-badge">AI POWERED</span></h3>
+
+                <div class="insight-item high-priority">
+                    <strong>Slow Inventory Turnover</strong><br>
+                    <span class="metric-label">Current: 0.8 times/year</span><br>
+                    <span class="metric-label">Target: 6-8 times/year</span>
+                    <div style="margin-top: 8px; font-size: 0.85rem;">
+                        <strong>Recommendations:</strong><br>
+                        • Implement ABC analysis for inventory<br>
+                        • Create promotional campaigns for slow-moving items
+                    </div>
+                </div>
+
+                <div class="insight-item medium-priority">
+                    <strong>Seasonal Opportunity</strong><br>
+                    Holiday season approaching. Consider increasing stock by 30-40% for high-demand items.
+                    <div style="margin-top: 8px; font-size: 0.85rem;">
+                        <strong>Expected Impact:</strong> +25% revenue boost
+                    </div>
+                </div>
+
+                <div class="insight-item low-priority">
+                    <strong>Expense Optimization</strong><br>
+                    Your expense ratio is 47.4%. Industry average is 35%. Consider cost reduction strategies.
+                </div>
+            </div>
+
+            <!-- AI Query Assistant Card -->
+            <div class="card" style="grid-column: 1 / -1;">
+                <h3>💬 AI Business Assistant <span class="ai-badge">AI POWERED</span></h3>
+
+                <div class="chat-container">
+                    <div class="chat-messages">
+                        <div class="message ai">
+                            <strong>AI Assistant:</strong><br>
+                            Hello! I'm your AI business assistant. I can help you analyze sales, profits, expenses, customers, and inventory. What would you like to know?
+                        </div>
+                    </div>
+
+                    <div class="chat-input">
+                        <input type="text" placeholder="Ask me anything about your business..." />
+                        <button>Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Business Support Section -->
+        <div class="card" style="margin-top: 20px;">
+            <h3>🚀 New Business Support <span class="ai-badge">COLD START SOLUTION</span></h3>
+
+            <p style="margin-bottom: 15px; color: #666;">
+                Even with minimal data (like your 1-month-old business), our AI provides meaningful insights using industry benchmarks and progressive learning.
+            </p>
+
+            <div class="stats-grid" style="margin-top: 15px;">
+                <div style="text-align: center; padding: 15px; background: #e8f5e8; border-radius: 8px;">
+                    <div style="font-size: 1.5rem; color: #2e7d32; font-weight: bold;">73%</div>
+                    <div style="font-size: 0.9rem; color: #666;">Initial Confidence</div>
+                </div>
+                <div style="text-align: center; padding: 15px; background: #e3f2fd; border-radius: 8px;">
+                    <div style="font-size: 1.5rem; color: #1976d2; font-weight: bold;">Industry</div>
+                    <div style="font-size: 0.9rem; color: #666;">Benchmark Data</div>
+                </div>
+                <div style="text-align: center; padding: 15px; background: #fff3e0; border-radius: 8px;">
+                    <div style="font-size: 1.5rem; color: #ef6c00; font-weight: bold;">Progressive</div>
+                    <div style="font-size: 0.9rem; color: #666;">Learning System</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
